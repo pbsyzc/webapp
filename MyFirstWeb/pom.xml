@@ -14,9 +14,13 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+		<groupId>javax.servlet</groupId>
+		<artifactId>jsp-api</artifactId>
+		<version>2.0</version>
+	</dependency> 
   </dependencies>
   <build>
     <finalName>MyFirstWeb</finalName>
-    <outputDirectory>D:\Program File\apache-tomcat-8.0.24\webapps</outputDirectory>
   </build>
 </project>
