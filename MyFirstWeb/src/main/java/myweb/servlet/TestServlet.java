@@ -18,7 +18,7 @@ public class TestServlet extends HttpServlet {
 			HttpServletResponse response)
 			throws ServletException, IOException {
 			PrintWriter out = response.getWriter();
-			out.println( "I am clever!" );
+			out.println( "<h2>I am clever!</h2>" );
 			out.flush();
 			out.close();
 			}
